@@ -17,7 +17,7 @@ The execution of the solution is divided into 3 methods.
 
 ### Structure
 
-```
+```c
 int main(void)
 {
     ...
