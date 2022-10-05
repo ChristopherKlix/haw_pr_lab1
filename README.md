@@ -24,7 +24,7 @@ int main(void)
     do
     {
         ...
-        ask_question() // --> might invoke surprise() as a side-effect
+        int answer = ask_question() // --> might invoke surprise() as a side-effect
         ...
     }
     while (...)
